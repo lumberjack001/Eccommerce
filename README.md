@@ -1,2 +1,2 @@
-# Eccommerce
+# Ecommerce
 A fully functional Ecommerce sire
