@@ -1,0 +1,268 @@
+/* table of contents    line
+1. General styles       6 - 29
+2. Nav bar              32 - 63
+3. carousel             68 - 76
+4. display items        80 - 110
+5. grid                 113 - 150
+6. pager break          156 - 167
+7. section grid         173 - 203
+8. ambasadors           208 - 213
+9. newsletter           218 - 240
+10. footer              245 - end
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #fafafa;
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* navigation bar */
+.padding {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.width {
+    width: 33.333%;
+}
+
+/* nav links */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* login and cart details */
+.user-details {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-details svg {
+    margin-left: 0.25em;
+}
+
+.user-details a:nth-of-type(2) {
+    margin-left: 4em;
+}
+
+/* nav-bar ends */
+
+/* carousel */
+.carousel {
+    height: 40vh;
+    top: 126.45px;
+    background: #F3C5FF;
+}
+
+.body-margin {
+    margin: 4rem 1rem;
+}
+
+/* carousel ends */
+
+/* display items */
+.items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.item-cards {
+    width: 48%;
+    display: flex;
+    background-color: #fafafa;
+    border-radius: 7px;
+    box-shadow: 0 5px 5px 4px rgba(136, 136, 136, 0.3);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1em;
+}
+
+.btn-bg {
+    padding: 1rem;
+    border-radius: 1em;
+    background-color: #F9F871;
+    width: 45%;
+}
+
+/* Grid */
+.item-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.grid-card {
+    width: 22.5%;
+    margin: 0.8em;
+    background-color: #fafafa;
+    border-radius: 7px;
+    box-shadow: 0 5px 5px 4px rgba(136, 136, 136, 0.3);
+}
+
+.grid-info>* {
+    margin: 0.5em;
+}
+
+.user-action {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.3em 0.5em;
+}
+
+
+.cart {
+    background: rgba(249, 248, 113, 0.47);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    align-self: center;
+}
+
+.cart:nth-of-type(2) {
+    background-color: #F9F871;
+}
+
+/* Grid ends */
+
+/* page-break */
+.page-break {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3em;
+}
+
+.page-break hr {
+    width: 42%;
+    color: #e5e5e5;
+}
+
+/* page-break ends*/
+
+/* section grid */
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sections {
+    width: 29%;
+}
+
+.sections>* {
+    margin: 1em 0;
+}
+
+.sections>h2 {
+    margin: 0.5em 0;
+    font-weight: 600;
+}
+
+.sections>p {
+    font-size: 0.8em;
+}
+
+.sections>a {
+    padding: 0.5em;
+    border: 1px solid black;
+    background: #C4C4C4;
+}
+
+.grid-margin {
+    margin: 0.5em;
+}
+
+/* Section grid ends */
+
+/* ambassadors */
+.ambassadors {
+    display: flex;
+    justify-content: space-around;
+    margin: 4em;
+}
+
+/* ambassadors ends*/
+
+/* newsletter */
+.newsletter {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #EED9C8;
+    border-radius: 1em;
+}
+
+.letter-text {
+    width: 50%;
+}
+
+.form {
+    width: 50%;
+}
+
+.letter-text>*,
+.form {
+    margin: 1em;
+}
+
+/* newsletter ends */
+
+/* footer */
+.store-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+    padding: 3em;
+    background-color: #F3C5FF;
+}
+
+.info {
+    width: 50%;
+}
+
+.info>* {
+    margin: 1.5em;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer ends */
